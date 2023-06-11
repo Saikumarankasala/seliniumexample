@@ -9,6 +9,7 @@ public class Verifyapplicationuri {
 		System.setProperty("webdriver.chrome.driver","D://chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://icrtc.com/");
+		driver.manage().window().maximize();
 	}
 
 }
